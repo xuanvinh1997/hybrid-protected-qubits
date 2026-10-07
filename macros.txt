@@ -1,0 +1,5 @@
+\ket:{\left|#1\right\rangle}
+\bra:{\left\langle#1\right|}
+\braket:{\left\langle#1\middle|#2\right\rangle}
+\tr:{\operatorname{Tr}}
+\dEJ:{dE_J}

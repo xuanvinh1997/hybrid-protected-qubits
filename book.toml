@@ -1,0 +1,16 @@
+[book]
+title = "Hybrid Protected Qubits — Sổ tay nghiên cứu"
+authors = ["Phạm Xuân Vinh"]
+language = "vi"
+src = "src"
+
+[preprocessor.katex]
+after = ["links"]
+macros = "macros.txt"
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+[output.html]
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
+git-repository-url = "https://github.com/xuanvinh1997/hybrid-protected-qubits"

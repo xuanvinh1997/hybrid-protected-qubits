@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hpq"
+version = "0.1.0"
+description = "Hybrid protected qubits: reproducible calculations"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.11", "matplotlib>=3.7"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+crosscheck = ["scqubits>=4.0"]
+micro = ["kwant>=1.4"]
+
+[tool.setuptools]
+packages = ["hpq"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: long-running numerics"]
