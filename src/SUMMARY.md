@@ -6,6 +6,14 @@
 - [Bản đồ khái niệm](concept-map.md)
 - [Bảng tra phương pháp](methods-index.md)
 
+# Giáo trình (khái niệm đầy đủ)
+
+- [Mục lục giáo trình](textbook/index.md)
+- [Ch.1 Hiệu ứng Josephson](textbook/ch01-josephson.md)
+- [Ch.2 Lượng tử hoá mạch](textbook/ch02-circuit-quantization.md)
+- [Ch.3 Biến tuần hoàn, Bloch, điện tích lệch](textbook/ch03-compact-bloch.md)
+- [Ch.4 Transmon](textbook/ch04-transmon.md)
+
 # A. Lượng tử hoá mạch
 
 - [A1. Hình thức luận Lagrange–Hamilton cho mạch](a-circuit/a1-circuit-quantization.md)
