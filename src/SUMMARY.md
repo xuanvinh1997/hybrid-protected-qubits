@@ -3,6 +3,7 @@
 [Giới thiệu & giao thức đọc](intro.md)
 
 - [Lộ trình nghiên cứu](roadmap.md)
+- [Điều chỉnh đề cương theo H1/H3/H5](outline-revision.md)
 - [Bản đồ khái niệm](concept-map.md)
 - [Bảng tra phương pháp](methods-index.md)
 

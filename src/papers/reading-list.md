@@ -71,6 +71,23 @@ Trạng thái: ☐ chưa · ◐ đang · ☑ đạt mức mục tiêu. Ghi chú 
 | ☐ | Hays et al. 2018 PRL 121, 047001; 2021 Science 373, 430 | L2 | động lực học ABS, QP |
 | ☐ | Fowler et al. 2012 PRA 86, 032324 | L2 | chi phí surface code |
 
+## T4 — Hướng H1/H3/H5 (điều chỉnh đề cương 10/2026)
+
+Trích dẫn đã tra ngày 11/10/2026; mục "chưa xác minh" xem [điều chỉnh đề cương §5](../outline-revision.md).
+
+| | Tài liệu | Mức | Trích |
+|---|---|---|---|
+| ☐ | Ferguson, Houck, Koch, PRX 3, 011003 (arXiv:1208.5747) | ★ L3 | đối xứng gần đúng cho mạch lớn — **đọc trước** (H1) |
+| ☐ | Osborne et al., PRX Quantum 5, 020309 (arXiv:2304.08531) | L2 | hình học symplectic, đồ thị + khung Hamilton cho mạch kỳ dị (H1) |
+| ☐ | Ding et al. 2021 (arXiv:2011.10564) | L2 | loại mode tự do, tách ghép mode (H1/H5) |
+| ☐ | Bravyi, DiVincenzo, Loss, Ann. Phys. 326, 2793 (2011) | ★ L3 | Schrieffer–Wolff chặt chẽ (H1) |
+| ☐ | Douçot & Ioffe, Rep. Prog. Phys. 75, 072001 (2012) | ★ L2 | tổng quan bảo vệ vật lý (H3) |
+| ☐ | Rymarz et al., PRX 11, 011032 (arXiv:2002.07718) | L2 | trạng thái lưới mã hoá phần cứng (H3) |
+| ☐ | Le, Grimsmo, Müller, Stace, PRA 100, 062321 (arXiv:1904.01843) | L2 | qubit phi tuyến kép (H3) |
+| ☐ | Di Paolo et al. (arXiv:1912.01018), npj Quantum Inf. 2021 | ★ L3 | DMRG cho fluxonium, mảng >200 mối nối (H5) |
+| ☐ | Kerman (arXiv:2010.14929) | L2 | chéo hoá phân cấp (H5) |
+| ☐ | Viola & Catelani, PRB 92, 224511 (2015) | L2 | mode tập thể mảng JJ (H5) |
+
 ## Cách tìm thêm (định kỳ hằng tháng)
 
 - arXiv: `cond-mat.mes-hall` + `quant-ph`, từ khóa: *gatemon, protected qubit, 0-π, cos2φ, Josephson harmonics, planar Josephson junction, Andreev*.

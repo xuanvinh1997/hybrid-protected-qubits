@@ -1,6 +1,6 @@
 # Lộ trình nghiên cứu
 
-Bốn giai đoạn, mỗi giai đoạn kết thúc bằng một **cổng kiểm tra** (deliverable kiểm chứng được), không theo thời lượng đọc.
+Xem thêm [điều chỉnh đề cương theo H1/H3/H5](outline-revision.md). Bốn giai đoạn, mỗi giai đoạn kết thúc bằng một **cổng kiểm tra** (deliverable kiểm chứng được), không theo thời lượng đọc.
 
 ```mermaid
 gantt
@@ -37,6 +37,8 @@ gantt
 - [ ] Tái lập bảng tham số và $T_1$, $T_2$ ước lượng của Groszkowski 2018 và Gyenis 2021 (soft 0-π).
 - [ ] **Giải quyết OQ-1** (xem [câu hỏi mở](open-questions.md)): mode ζ ghép qua tham số nào? Quyết định này định hình lại lập luận "cân bằng cổng nâng $T_{2R}$" của đề cương.
 - [ ] Ngân sách mất kết hợp đầy đủ cho 0-π lai, gồm nhiễu cổng và QP — dù chỉ ở mức bậc độ lớn.
+- [ ] **Giải quyết OQ-8** (H1): bảng tham số rối loạn × biểu diễn nhóm × kênh nhiễu; đọc Ferguson 2013 trước.
+- [ ] **Quyết định OQ-10** (H5): chéo hoá phân cấp có đủ cho 0-π + mode mảng không? Nếu có thì bỏ DMRG/MPO.
 - [ ] Bản thảo bài báo 1.
 
 ## G2 — Vi mô → mạch, Nội dung 1 (≈ 5 tháng)
@@ -54,6 +56,7 @@ gantt
 
 **Cổng kiểm tra G3:**
 - [ ] Phân tích cos2φ lai: độ bền bảo vệ theo $\delta E_{J,1}$ dư, nhiễu cổng, QP.
+- [ ] OQ-9 (H3): hành động instanton cho 0-π hai giếng với $r(V_g)$ từ G2; so với chéo hoá. Một đảo đã xong (`check_instanton_harmonics.py`).
 - [ ] Mô phỏng Lindblad một cổng chuyển mức bảo vệ, có rò rỉ và giới hạn băng thông đường cổng.
 - [ ] Bài báo 2.
 

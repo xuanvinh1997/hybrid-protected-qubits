@@ -18,6 +18,8 @@ Nguyên tắc: mọi khẳng định của đề cương đi qua bảng này tr�
 
 **Hệ quả nếu xác nhận:** cân bằng $E_J$ bằng cổng **không** triệt mất pha do ζ. Lập luận trung tâm của kết quả sơ bộ [20] cần xây lại: hoặc (a) tìm kênh khác mà $dE_J$ thực sự chi phối (ví dụ nhiễu từ thông bậc nhất khi đối xứng phản xạ bị phá kết hợp với $dC_J$), hoặc (b) dùng $V_g$ để bù gián tiếp, hoặc (c) chuyển trọng tâm sang các lợi ích khác của gatemon (điều hòa bậc hai, tần số điều chỉnh được).
 
+**Khung chặt chẽ cho câu hỏi này:** hướng H1 (quy tắc chọn lọc theo biểu diễn nhóm), xem [OQ-8](#oq-8) và [điều chỉnh đề cương](outline-revision.md).
+
 **Việc cần làm:**
 - [ ] Đọc L3 Groszkowski 2018 §2–4, Dempster 2014 §III; tự lượng tử hoá mạch 4 nút có rối loạn đầy đủ.
 - [ ] Đối chiếu với mô hình trong [20]: ζ được định nghĩa thế nào, có phải mô hình đã ngầm gán $dE_L\equiv dE_J$ (rối loạn tương quan)?
@@ -49,3 +51,18 @@ Rashba + $B_\parallel$ cho dịch pha dị thường điều chỉnh bằng cổ
 ## OQ-7 · Độ dài kết hợp InAs/Al — `OPEN`
 
 Đề cương ghi $\xi\sim100$–$200$ nm. Ước lượng sạch với $n=10^{12}$ cm⁻², $m^*=0{,}023m_e$: $k_F=\sqrt{2\pi n}\approx2{,}5\times10^8$ m⁻¹, $v_F\approx1{,}3\times10^6$ m/s; với $\Delta^*\approx180$ µeV: $\hbar v_F/\pi\Delta^*\approx1{,}5$ µm — lớn hơn 100–200 nm cả một bậc. Cần phân biệt $\xi_0$, $\ell_e$, $\xi_{dirty}=\sqrt{\xi_0\ell_e}$ và chọn chế độ ballistic/diffusive cho ND1.
+
+---
+
+<a id="oq-8"></a>
+## OQ-8 · Quy tắc chọn lọc nhóm cho rối loạn của 0-π lai — `OPEN` · ưu tiên CAO (hướng H1)
+
+Nhóm $G$ của mạch danh định; mỗi $\delta p\in\{dE_J,d_M,dE_L,dC,dC_J,\varphi_0,\dots\}$ thuộc biểu diễn nào; phần tử $\langle0|\partial_{\delta p}H|1\rangle$ và ghép tới ζ/mode mảng bị cấm hay cho phép. DV3 là trường hợp riêng đã kiểm số. Cần: (i) dẫn xuất bằng đại số, (ii) bảng tham số × biểu diễn × kênh nhiễu, (iii) kiểm bằng `scqubits.FullZeroPi`. Điểm khởi đầu: Ferguson 2013 (chưa xác nhận có quy tắc nhóm), Osborne 2024 cho khung đồ thị–đối xứng, Bravyi–DiVincenzo–Loss cho Schrieffer–Wolff chặt chẽ.
+
+## OQ-9 · Hành động instanton của 0-π lai với điều hòa $r<0$ — `CHECKING` · hướng H3
+
+Đã làm cho **một đảo**: $s(r)$ WKB khớp chéo hoá trong 3% với $r\in[-0{,}2,0{,}1]$; $r=-0{,}10$ giảm $S$ 7%, tỉ số $\varepsilon_0$ ×2–3 ở $E_J/E_C=36$–64 (`check_instanton_harmonics.py`). **Chưa làm:** 0-π hai giếng; cận Agmon; ảnh hưởng của $dE_J,d_M$ lên độ chồng lấp hàm sóng tách miền.
+
+## OQ-10 · Có cần mạng tensor cho 0-π có siêu điện cảm là mảng? — `OPEN` · hướng H5
+
+Kiểm: chéo hoá phân cấp (scqubits) cho 0-π + $k$ mode mảng hội tụ theo $k$ không? Nếu đổi $\ge$ ngưỡng sai số đề ra khi $k$ tăng thì mới cân nhắc DMRG/MPO. Tài liệu đã xác minh chỉ cho fluxonium (Di Paolo, arXiv:1912.01018; Viola–Catelani PRB 92, 224511).
