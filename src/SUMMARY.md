@@ -61,6 +61,7 @@
 # Tài liệu
 
 - [Danh mục đọc phân tầng](papers/reading-list.md)
+- [Liên kết tài liệu (arXiv/DOI)](papers/links.md)
 - [Template ghi chú bài báo](papers/template.md)
 - [Câu hỏi mở & giả thuyết](open-questions.md)
 - [Thuật ngữ Việt–Anh](glossary.md)
